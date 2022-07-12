@@ -3,6 +3,8 @@
 --
 -- For more info see http://blog.kylemanna.com/linux/2013/06/09/use-imapfilter-to-filter-spam-part2/
 --
+require "luarocks.loader"
+
 require("os")
 require("io")
 require("posix")
