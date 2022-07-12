@@ -3,7 +3,6 @@
 --
 -- For more info see http://blog.kylemanna.com/linux/2013/06/09/use-imapfilter-to-filter-spam-part2/
 --
-require "luarocks.loader"
 
 require("os")
 require("io")
@@ -190,9 +189,9 @@ end
 --  Options  --
 ---------------
 
-options.timeout = 120
-options.keepalive = 5
---options.subscribe = true
+options.timeout = 60
+options.keepalive = 1
+options.subscribe = true
 
 
 ----------------
